@@ -1,0 +1,3 @@
+# TypeScript Runtime Type Error
+
+This repository demonstrates a common yet subtle issue in TypeScript where type errors, despite static typing, manifest only at runtime. The `add` function is explicitly typed to accept two numbers; however, a string is passed, leading to a runtime failure. This highlights the need for thorough testing and runtime checks, especially when dealing with external or dynamic data sources.  The solution demonstrates how to improve type safety.
